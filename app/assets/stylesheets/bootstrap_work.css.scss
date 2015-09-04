@@ -4,8 +4,10 @@ $jumbotron-bg:     				white;
 $btn-primary-bg:  				#e74c3c;
 $navbar-default-brand-color: 	#e74c3c;  
 
-
+@import 'bootstrap-sprockets';
+$icon-font-path: 'bootstrap';
 @import 'bootstrap';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
 .center {
 	text-align: center;
